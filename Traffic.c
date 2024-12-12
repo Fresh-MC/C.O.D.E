@@ -9,8 +9,8 @@ scanf("%d",&y);
 printf("Green Light Duration : ");
 scanf("%d",&g);
 
-int i;
-for(i=0;i<3;i++){
+int i,j;
+for(j=0;j<3;j++){
 printf("\nRed Light : ");
 for(i=r;i>0;i--){
 printf("\nTime remaining : %d",i);
